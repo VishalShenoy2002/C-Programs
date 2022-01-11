@@ -53,4 +53,16 @@ void main()
 
     printf("! n3: %d\n",!n3);
     printf("! n4: %d\n",!n4);
+
+//  Assignment Operators
+    // =,+=,-=,*=,/=,%=
+    int num1=10,num2=20;
+
+    printf("num1 = %d and num2 = %d\n",num1,num2);
+    printf("num1+=num2 :%d\n",num1+=num2);
+    printf("num1-=num2 :%d\n",num1-=num2);
+    printf("num1*=num2 :%d\n",num1*=num2);
+    printf("num1/=num2 :%d\n",num1/=num2);
+    printf("num1%%=num2 :%d\n",num1%=num2);
+
 }
