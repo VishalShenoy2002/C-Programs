@@ -28,14 +28,29 @@ void main()
 
 //  Relational Operators
     // ==,!=,<=,>=,>,<
-    int n1=10,n2=20,n3=30;
+    int n1=10,n2=20;
 
-    printf("n1==n2:%d\n",n1==n2);
-    printf("n1!=n2:%d\n",n1!=n2);
-    printf("n1<=n2:%d\n",n1<=n2);
-    printf("n2<=n3:%d\n",n1<=n2);
-    printf("n3<n3:%d\n",n1<n2);
-    printf("n3>n2:%d\n",n1>n2);
-    printf("n3>=n1:%d\n",n1>=n2);
+    printf("n1 == n2: %d\n",n1==n2);
+    printf("n1 != n2: %d\n",n1!=n2);
+    printf("n1 <= n2: %d\n",n1<=n2);
+    printf("n2 >= n2: %d\n",n1>=n2);
+    printf("n1 < n2: %d\n",n1<n2);
+    printf("n1 > n2: %d\n",n1>n2);
 
+
+//  Logical Operators
+    // &&, ||, !
+    int n3=1,n4=0;
+
+    printf("n3 && n4: %d\n",n3&&n4);
+    printf("n3 && n3: %d\n",n3&&n3);
+    printf("n4 && n4: %d\n",n4&&n4);
+
+    printf("n3 || n4: %d\n",n3||n4);
+    printf("n3 || n3: %d\n",n3||n3);
+    printf("n4 || n4: %d\n",n4||n4);
+    printf("n4 || n3: %d\n",n4||n3);
+
+    printf("! n3: %d\n",!n3);
+    printf("! n4: %d\n",!n4);
 }
